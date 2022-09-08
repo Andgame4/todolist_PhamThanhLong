@@ -29,7 +29,7 @@ export default class Task extends React.Component {
                     <FaRegEdit />
                   </i>
                 </div>
-                <div className="Task__btn2">
+                <div className="Task__btn2" onClick={this.handleDeleteTask}>
                   <i>
                     <RiDeleteBinLine />
                   </i>

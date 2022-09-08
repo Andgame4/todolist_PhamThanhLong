@@ -1,7 +1,8 @@
 import React from "react";
 import initialData from "./data";
 import "./index.css";
-import Column from "./components/column";
+import "react-responsive-modal/styles.css";
+import Column from "./components/Column";
 import "modern-css-reset";
 import { DragDropContext } from "react-beautiful-dnd";
 
